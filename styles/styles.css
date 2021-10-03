@@ -425,7 +425,7 @@ main {
   text-align: center;
   top: 30%;
   width: 100%;
-  text-shadow: 0px 5px 3px #000000;
+  text-shadow: 0.035em 0 black, 0 0.035em black, -0.035em 0 black, 0 -0.035em black;
 }
 
 /*** Homepage - Main Content - Get Involved ***/
