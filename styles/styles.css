@@ -18,15 +18,6 @@ li,
   font-weight: bold;
 }
 
-.donate_content input,
-.donate_content select,
-.contact_form input,
-.contact select,
-.contact textarea {
-  font-family: Tahoma, Verdana, "Segoe", sans-serif;
-  font-size: 18px;
-}
-
 .homepage h1 {
   font-size: 60px;
 }
@@ -109,35 +100,16 @@ footer,
   background-color: #02403a;
 }
 
-header li,
-footer li,
 a,
 header,
-footer,
-.cta,
-h1,
-.homepage h1,
-.homepage h2 {
+footer {
   color: #ffffff;
 }
 
-.visit_content div:nth-child(odd),
-.exhibition_content:nth-child(odd),
-.explore_content,
-.event_content:nth-child(even),
-.venue_content:nth-child(odd),
-.about_content,
-.involve,
-.involve_content,
-.contact,
-.contact_checkout {
+.light-green {
   background-color: #a1db60;
 }
-
-.visit_content div:nth-child(even),
-.exhibition_content:nth-child(even),
-.event_content:nth-child(odd),
-.venue_content:nth-child(even) {
+.light-blue {
   background-color: #14a3fc;
 }
 
@@ -186,13 +158,7 @@ h1,
 
 /* Images */
 
-.explore_content_img,
-.exhibition_img,
-.homepage_involve_img,
-.event_img,
-.venue_img,
-.involve_img,
-.about_img {
+.border-img {
   border: 0.5px solid #02403a;
   background-size: cover;
   box-shadow: 0px 11px 12px -8px black;
@@ -287,10 +253,7 @@ h1,
 }
 
 /** Rent Venue + Get involved **/
-.support_img,
-.internship_img,
-.conference_img,
-.birthday_img {
+.center-img {
   background-position-y: center;
 }
 
@@ -344,13 +307,7 @@ main {
   margin-bottom: 20px;
 }
 
-.explore_content_text,
-.exhibition_text,
-.event_text,
-.venue_text,
-.about_text,
-.visit_content div,
-.homepage_involve_text {
+.text-padding {
   padding: 20px;
   padding-top: 0px;
 }
@@ -599,11 +556,9 @@ ul .dropbox {
   width: 270px;
 }
 
-.donate_content input,
-.donate_content select,
-.contact_form input,
-.contact select,
-.contact textarea {
+.font-forms {
+  font-family: Tahoma, Verdana, "Segoe", sans-serif;
+  font-size: 18px;
   padding: 2px 10px 2px 10px;
   margin-bottom: 15px;
   border-width: 1px;
@@ -628,15 +583,16 @@ ul .dropbox {
 .contact_form_info,
 .contact_form_message {
   width: 300px;
+  margin: 0px 20px 20px 20px;
+}
+
+.contact_form .font-forms {
+  margin-bottom: 5px;
 }
 
 .contact_option {
   display: block;
   text-align: center;
-}
-.contact_form_info,
-.contact_form_message {
-  margin: 0px 20px 20px 20px;
 }
 
 .contact_form {
@@ -656,6 +612,20 @@ ul .dropbox {
   margin-bottom: 5px;
 }
 
+.cta-opacity {
+  opacity: 50%;
+}
+.cta-opacity:hover {
+  cursor: default;
+  background-color: #f2561d;
+}
+
+.formError {
+  color: red;
+  display: none;
+  margin-bottom: 5px;
+  padding-left: 7px;
+}
 /* Contact and donation - checkout */
 
 .contact_checkout {

@@ -6,7 +6,7 @@
     <meta name="description" content="Support us with a one-time or a monthly donation." />
     <title>Donation</title>
     <link rel="stylesheet" href="../../styles/styles.css" />
-    <link rel="stylesheet" href="/styles/header_footer.css" />
+    <link rel="stylesheet" href="../../styles/header_footer.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <script src="https://kit.fontawesome.com/70984d4de4.js" crossorigin="anonymous"></script>
   </head>
@@ -29,14 +29,14 @@
           <input type="checkbox" id="hamburger-menu" />
           <nav class="hamburger-menu">
             <ul>
-              <a href="../visit.html"><li>Visit</li></a>
-              <a href="../explore/explore.html"><li>Explore</li></a>
-              <a href="../exhibition.html"><li>Exhibition Spaces</li></a>
-              <a href="../event.html"><li>Special Events</li></a>
-              <a href="../venue.html"><li>Rent Venue</li></a>
-              <a href="involve.html"><li class="active">Get Involved</li></a>
-              <a href="../contact/contact.html"><li>Contact Us</li></a>
-              <a href="../about.html"><li>About Us</li></a>
+              <li><a href="../visit.html">Visit</a></li>
+              <li><a href="../explore/explore.html">Explore</a></li>
+              <li><a href="../exhibition.html">Exhibition Spaces</a></li>
+              <li><a href="../event.html">Special Events</a></li>
+              <li><a href="../venue.html">Rent Venue</a></li>
+              <li class="active"><a href="involve.html">Get Involved</a></li>
+              <li><a href="../contact/contact.html">Contact Us</a></li>
+              <li><a href="../about.html">About Us</a></li>
             </ul>
           </nav>
         </div>
@@ -54,41 +54,41 @@
     </section>
     <main class="border-radius_30px">
       <form action="" method="POST">
-        <div class="involve_content donate_content">
+        <div class="involve_content donate_content light-green">
           <h2>Donation</h2>
           <div class="person_card">
             <div class="person_info">
               <div>
                 <label for="name">Name:</label>
-                <input class="long-input" type="text" name="fullname" id="name" />
+                <input class="long-input font-forms" type="text" name="fullname" id="name" />
               </div>
               <div>
                 <label for="Email">Email:</label>
-                <input class="long-input" type="email" name="email" id="email" />
+                <input class="long-input font-forms" type="email" name="email" id="email" />
               </div>
             </div>
             <div class="cardnumber_details">
               <div>
                 <label for="cardnumber">Card Number:</label>
-                <input class="long-input" type="number" name="cardnumber" id="cardnumber" />
+                <input class="long-input font-forms" type="number" name="cardnumber" id="cardnumber" />
               </div>
               <div class="cardnumber_exp_sec">
                 <div>
                   <label for="expdate">Exp. Date:</label>
-                  <input class="short-input" type="number" name="expdate" id="expdate" />
+                  <input class="short-input font-forms" type="number" name="expdate" id="expdate" />
                 </div>
                 <div>
                   <label for="securitycode">Security Code:</label>
-                  <input class="short-input" type="number" name="securitycode" id="securitycode" />
+                  <input class="short-input font-forms" type="number" name="securitycode" id="securitycode" />
                 </div>
               </div>
             </div>
           </div>
           <label for="amount">Amount:</label>
-          <input class="short-input" type="number" name="amount" id="amount" />
+          <input class="short-input font-forms" type="number" name="amount" id="amount" />
           <div class="donation_frequency">
             <p>Choose between a one-time or a monthly donation:</p>
-            <select name="option" id="option">
+            <select name="option" id="option" class="font-forms">
               <option value="one-time">One-time</option>
               <option value="monthly">Monthly</option>
             </select>
@@ -142,15 +142,9 @@
         </div>
         <div class="follow">
           <h2>Follow us</h2>
-          <label for="twitter"
-            ><a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a
-          ></label>
-          <label for="twitter"
-            ><a href="https://instagram.com"><i class="fab fa-instagram fa-2x"></i></a
-          ></label>
-          <label for="twitter"
-            ><a href="https://facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a
-          ></label>
+          <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="https://instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
         </div>
       </div>
     </footer>
